@@ -1,0 +1,12 @@
+jal 3
+addi v0 zero 1
+j 12
+addi t0 zero 100
+addi t1 zero 100
+addi s0 zero 0
+addi s1 zero 0
+add s0 s0 t0
+addi s1 s1 1
+beq t1 s1 1
+j 7
+jr ra
